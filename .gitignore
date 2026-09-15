@@ -1,0 +1,42 @@
+# Build artefacts
+**/Debug/
+**/Release/
+*.o
+*.d
+*.su
+*.cyclo
+*.elf
+*.hex
+*.bin
+*.map
+*.list
+*.launch
+
+# ROS 2
+ros2_ws/build/
+ros2_ws/install/
+ros2_ws/log/
+**/__pycache__/
+*.pyc
+*.egg-info/
+
+# KiCad
+*-backups/
+_autosave-*
+*.lck
+fp-info-cache
+\#auto_saved_files\#
+~*.lck
+
+# Editors / OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
+*.code-workspace
+
+# MATLAB
+*.asv
+*.m~
